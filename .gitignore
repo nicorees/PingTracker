@@ -1,3 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!.gitignore
+!Program.cs
+!Writer.cs
+!TrackedPing.cs
+
+# ...even if they are in subdirectories
+!*/
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
